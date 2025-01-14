@@ -1,9 +1,15 @@
 import React from 'react'
+import Header from './components/header/Header'
+import HeroSection from './components/heroSection/HeroSection'
+import './App.css'
 
 const App = () => {
   return (
     <div>
-      <h1>ZOHAIB</h1>
+      <Header />
+      <div className='main-component-wrapper'>
+        <HeroSection />
+      </div>
     </div>
   )
 }
