@@ -4,12 +4,15 @@ import './Card.css'
 
 const Card = (props) => {
     return (
-        <div className='card'>
-          <span>{props.cardIcon}</span>
+        <div className={props.className}>
+            <span>{props.cardIcon}</span>
 
             <h3>{props.cardHeading}</h3>
 
             <p>{props.cardDescription}</p>
+
+            {props.cardReadMore ? <span>Read More</span> : ""}
+
         </div>
     )
 }

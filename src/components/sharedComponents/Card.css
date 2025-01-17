@@ -1,4 +1,4 @@
-.card{
+.card, .card-services{
     border: 2px solid gray;
     padding: 2rem 0.2rem;
     display: flex;
@@ -8,4 +8,8 @@
     gap: 2rem;
     height: 100%;
     border-radius: 1rem;
+}
+
+.card-services{
+    border: 3px solid red;
 }

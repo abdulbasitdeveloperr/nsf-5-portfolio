@@ -29,11 +29,11 @@ const AboutMe = () => {
     ]
 
     const toolsIcons = [
-        <VscVscode />,
-        <IoLogoFirebase />,
-        <DiMongodb />,
-        <IoLogoFigma />,
-        <IoGitMerge />
+        <VscVscode size={45} color='blue' />,
+        <IoLogoFirebase size={45} color='yellow' />,
+        <DiMongodb size={45} color='green' />,
+        <IoLogoFigma size={45} color='lightblue' />,
+        <IoGitMerge size={45} color='red' />
 
     ]
     return (
@@ -50,7 +50,7 @@ const AboutMe = () => {
                 </div>
 
 
-                <div>
+                <div className='about-me-bottom-right'>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis rem enim blanditiis deleniti ipsam molestiae quos ut ratione aliquam! Accusamus, totam dignissimos maxime obcaecati ipsum non sit perspiciatis eligendi? Minima!
                     </p>
 
@@ -58,7 +58,12 @@ const AboutMe = () => {
                         {cardData.map((item, index) => {
                             return (
 
-                                <Card cardHeading={item.cardheading} cardDescription={item.carddesc} cardIcon={item.cardicon} />
+                                <Card
+                                    cardHeading={item.cardheading}
+                                    cardDescription={item.carddesc}
+                                    cardIcon={item.cardicon}
+                                    className="card"
+                                />
 
                             )
                         })}
@@ -68,8 +73,14 @@ const AboutMe = () => {
 
                     <span>Toos I use</span>
 
-                    <div>
-                        {toolsIcons.map((item, index) => item)}
+                    <div className='about-me-bottom-tools-container'>
+                        {toolsIcons.map((item, index) =>
+
+                            <span className='about-me-bottom-tools'>
+                                {item}
+                            </span>
+
+                        )}
                     </div>
 
 

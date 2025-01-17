@@ -1,3 +1,7 @@
 .main-component-wrapper{
     padding: 1rem 7rem;
 }
+
+.about-me-main{
+    height: calc(100vh - 3rem);
+}
