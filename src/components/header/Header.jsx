@@ -33,7 +33,7 @@ const Header = () => {
         <header className='header'>
 
             <div className='header-logo'>
-                <h1>Tauseeq</h1>
+                <h1>Abdul Basit</h1>
                 <span className='name-dot'></span>
             </div>
 
