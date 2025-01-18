@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeroSection.css'
 import { MdWavingHand } from 'react-icons/md'
-import profilePicture from '../../assets/images.jpg'
+import profilePicture from '../../assets/images.png'
 
 const HeroSection = () => {
     return (
