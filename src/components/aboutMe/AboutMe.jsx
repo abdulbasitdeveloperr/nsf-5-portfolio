@@ -7,6 +7,8 @@ import { CgCodeSlash } from 'react-icons/cg'
 import { VscVscode } from 'react-icons/vsc'
 import { IoGitMerge, IoLogoFigma, IoLogoFirebase } from 'react-icons/io5'
 import { DiMongodb } from 'react-icons/di'
+import { GrProjects } from "react-icons/gr"
+import { FaGraduationCap } from "react-icons/fa"
 
 const AboutMe = () => {
 
@@ -18,13 +20,13 @@ const AboutMe = () => {
         },
         {
             cardheading: "Education",
-            carddesc: "BSCS from ABC UNI, Master",
-            cardicon: <CgCodeSlash />
+            carddesc: "Intermediate from Master College",
+            cardicon: <FaGraduationCap />
         },
         {
             cardheading: "Projects",
             carddesc: "Build portfolio website.",
-            cardicon: <CgCodeSlash />
+            cardicon: <GrProjects />
         }
     ]
 
