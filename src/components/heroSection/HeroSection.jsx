@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div className='hero-section-top-image'>
                     <img src={profilePicture} className='profile-image'/>
                 </div>
-                <span className='hero-section-top-text'>Hi! I'm Tauseeq Haider  <MdWavingHand size={38} color='#E5D0AC' className='waving-hand'/></span>
+                <span className='hero-section-top-text'>Hi! I'm Abdul Basit  <MdWavingHand size={38} color='#E5D0AC' className='waving-hand'/></span>
 
             </div>
 
