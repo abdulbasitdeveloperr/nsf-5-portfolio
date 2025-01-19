@@ -4,37 +4,34 @@ import TopDataText from '../sharedComponents/TopDataText'
 import Card from '../sharedComponents/Card'
 import { GiGlobeRing } from 'react-icons/gi'
 import { CgCodeSlash } from 'react-icons/cg'
+import { CgWebsite } from "react-icons/cg"
+import { SiCircuitverse } from "react-icons/si"
+import { IoLogoDesignernews } from "react-icons/io5"
 
 const Services = () => {
     const cardDataServices = [
         {
             cardheading: "Web Design",
             carddesc: "Web development is a process of builing",
-            cardicon: <CgCodeSlash />,
-            cardReadMore: true
-        },
-        {
-            cardheading: "Mobile App",
-            carddesc: "BSCS from ABC UNI, Master",
-            cardicon: <CgCodeSlash />,
+            cardicon: <CgWebsite />,
             cardReadMore: true
         },
         {
             cardheading: "UI/UX design",
             carddesc: "Build portfolio website.",
-            cardicon: <CgCodeSlash />,
+            cardicon: <SiCircuitverse />,
             cardReadMore: true
         },
         {
             cardheading: "Graphics Design",
             carddesc: "Build portfolio website.",
-            cardicon: <CgCodeSlash />,
+            cardicon: <IoLogoDesignernews />,
             cardReadMore: true
         }
     ]
     return (
         <div>
-            <div>
+            <div className="about-me-top">
                 <TopDataText
                     topText="What I offer"
                     headingText="My Services"
@@ -48,6 +45,7 @@ const Services = () => {
                     return (
 
                         <Card
+                        key={index}
                             cardHeading={item.cardheading}
                             cardDescription={item.carddesc}
                             cardIcon={item.cardicon}

@@ -26,6 +26,7 @@
     justify-content: space-between;
     align-items: center;
     /* width: 80%; */
+    align-items: center;
 }
 
 .about-me-bottom-image {
@@ -74,3 +75,22 @@
     padding-bottom: 2rem;
     padding-top: 4rem;
 }
+.card svg {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  
+  .card h3 {
+    font-size: 1.3rem; 
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  
+  .card p {
+    font-size: 0.95rem; 
+    color: #666;
+    margin-bottom: 20px;
+  }
