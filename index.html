@@ -7,6 +7,71 @@
     <title>Abdul Basit</title>
   </head>
   <body>
+    <!-- <section id="mobile-responsive-section">
+      <div class="responsive-container">
+        <h1>Responsive Section</h1>
+        <p>یہ سیکشن موبائل کے لیے بہترین ہے۔</p>
+        <button onclick="alert('Button clicked!')">Click Me</button>
+      </div>
+    </section> -->
+    
+    <style>
+      #mobile-responsive-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #f5f5f5;
+        text-align: center;
+      }
+    
+      #mobile-responsive-section h1 {
+        font-size: 2rem;
+        color: #333;
+      }
+    
+      #mobile-responsive-section p {
+        font-size: 1rem;
+        color: #555;
+        margin: 10px 0;
+      }
+    
+      #mobile-responsive-section button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: white;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+      #mobile-responsive-section button:hover {
+        background-color: #0056b3;
+      }
+    
+      /* Mobile Specific Styles */
+      @media (max-width: 768px) {
+        #mobile-responsive-section {
+          padding: 10px;
+        }
+    
+        #mobile-responsive-section h1 {
+          font-size: 1.5rem;
+        }
+    
+        #mobile-responsive-section p {
+          font-size: 0.9rem;
+        }
+    
+        #mobile-responsive-section button {
+          font-size: 0.9rem;
+          padding: 8px 16px;
+        }
+      }
+    </style>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
