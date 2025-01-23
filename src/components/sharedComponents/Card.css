@@ -26,8 +26,9 @@
     flex-direction: column;
 }
 .top-data-text > p{
-    width: 50%;
+    width: 65%;
     text-align: center;
+    padding-bottom: 2rem;
 }
 .card-latest-work{
     display: flex;

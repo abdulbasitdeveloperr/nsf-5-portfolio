@@ -32,9 +32,13 @@
 
 .hero-section-top-text {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 300;}
 
-}
+    .hero-section-top-text,
+    .hero-section-middle-heading,
+    .hero-section-middle-desc {
+        color: var(--text-color);
+    }
 
 .hero-section-middle {
     width: 50%;

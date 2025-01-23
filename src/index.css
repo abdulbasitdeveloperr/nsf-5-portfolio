@@ -7,3 +7,21 @@
     font-family: "Poppins", serif;
     font-style: normal;
 }
+:root {
+    --text-color: "#333";
+    --border-color: black;
+    --hover-text-color: whitesmoke;
+    --background-color: white;
+    --name-dot: orangered;
+    --border-bottom: grey;
+}
+[data-theme="dark"] {
+    /* Dark Theme Variables */
+    --text-color: whitesmoke;
+    --border-color: lightgray;
+    --hover-text-color: black;
+    --background-color: #121212;
+    /* Typical dark background */
+    --name-dot: orange;
+    --border-bottom: darkgray;
+}

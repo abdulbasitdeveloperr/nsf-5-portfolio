@@ -6,8 +6,8 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: white;
-    border-bottom: 1px solid grey;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
     box-shadow: 1px 1px 10px 2px #888888;
     z-index: 10;
 }
@@ -18,9 +18,10 @@
     align-items: center;
     gap: 2rem;
     list-style: none;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     border-radius: 7rem;
     padding: 1rem;
+    color: var(--text-color);
 }
 
 .name-dot {
@@ -39,6 +40,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    color: var(--text-color);
 }
 
 .header-buttons {
@@ -53,5 +55,6 @@
     padding: 0.7rem 2rem;
     border: 2px solid black;
     border-radius: 4rem;
+      color: var(--text-color);
 
 }

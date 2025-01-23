@@ -107,7 +107,7 @@ const Services = () => {
             <TopDataText
                 topText="What I Offer"
                 headingText="My Services"
-                descText="As a fresher, I offer services that reflect my passion and dedication to continuous learning. I specialize in [mention your key skills, e.g., web development, graphic design, or writing] and have hands-on experience through personal projects and academic work. I am eager to take on new challenges, deliver quality results, and grow with every opportunity."
+                descText="'As a fresher, I offer services that reflect my passion and dedication to continuous learning. I specialize in [mention your key skills, e.g., web development, graphic design, or writing] and have hands-on experience through personal projects and academic work. I am eager to take on new challenges, deliver quality results, and grow with every opportunity.'"
             />
             <div className="about-me-bottom-cards">
                 <div className="about-me-bottom-cards-services">

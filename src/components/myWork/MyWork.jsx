@@ -5,7 +5,7 @@ import Card from '../sharedComponents/Card'
 import picture from '../../assets/images.png'
 import { BsArrowBarRight } from 'react-icons/bs'
 import { CgCodeSlash } from 'react-icons/cg'
-import image2 from '../../assets/web design.png'
+import image2 from '../../assets/web design.jpeg'
 import image1 from '../../assets/web devlopment.png'
 import image3 from '../../assets/destop.png'
 
