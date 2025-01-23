@@ -1,0 +1,91 @@
+/* Reset all margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure body and html have no space */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure full screen height */
+  }
+  
+  /* Responsive Section Styles */
+  #mobile-responsive-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Take up full height of the screen */
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  #mobile-responsive-section h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  #mobile-responsive-section p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  #mobile-responsive-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #mobile-responsive-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mobile Specific Styles */
+  @media (max-width: 768px) {
+    #mobile-responsive-section {
+      padding: 10px;
+    }
+  
+    #mobile-responsive-section h1 {
+      font-size: 1.5rem;
+    }
+  
+    #mobile-responsive-section p {
+      font-size: 0.9rem;
+    }
+  
+    #mobile-responsive-section button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* For Realme 5s (1080px width) */
+  @media (max-width: 1080px) {
+    #mobile-responsive-section {
+      padding: 15px;
+    }
+  
+    #mobile-responsive-section h1 {
+      font-size: 1.6rem;
+    }
+  
+    #mobile-responsive-section p {
+      font-size: 1rem;
+    }
+  
+    #mobile-responsive-section button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  
