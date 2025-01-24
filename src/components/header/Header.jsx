@@ -17,27 +17,32 @@ const Header = () => {
         document.documentElement.setAttribute("data-theme", theme)
     }
 
-
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     const headerListItems = [
         {
             name: "Home",
-            route: "/"
+            id: "home"
         },
         {
             name: "About me",
-            route: "/aboutme"
+            id: "aboutme"
         },
         {
             name: "Services",
-            route: "/services"
+            id: "services"
         },
         {
             name: "My Work",
-            route: "/mywork"
+           id: "mywork"
         },
         {
             name: "Contact Me",
-            route: "/contactme"
+            id: "contactme"
         },
     ]
 
@@ -55,14 +60,16 @@ const Header = () => {
             <ul className='header-list-items'>
                 {headerListItems.map((item, index) => {
                     return (
-                        <li key={index}>{item.name}</li>
+                        <li key={index}>
+                        <button className='li-button' onClick={() => scrollToSection(item.id)}>{item.name}</button>
+                    </li>
                     )
                 })}
             </ul>
 
 
             <div className='header-buttons'>
-                         <button onClick={handleThemeChange}>
+                         <button onClick={handleThemeChange} className='dark-theme-button'>
                     {darkTheme === "light" ? <FaRegMoon size={28} /> : <FaRegSun size={28} />}
                 </button>
                 <button className='contact-button'>

@@ -134,7 +134,7 @@ const AboutMe = () => {
     ];
 
     return (
-        <div className='about-me'>
+        <div className='about-me' id='aboutme'>
             <div className='about-me-top'>
                 <span>Introduction</span>
                 <h1>About Me</h1>

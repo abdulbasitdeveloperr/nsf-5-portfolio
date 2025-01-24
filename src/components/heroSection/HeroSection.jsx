@@ -5,7 +5,7 @@ import profilePicture from '../../assets/images.png'
 
 const HeroSection = () => {
     return (
-        <div className='hero-section'>
+        <div className='hero-section' id='home'>
             {/* YEH PROFILE PICTURE WALI DIV HAI */}
             <div className='hero-section-top'>
                 <div className='hero-section-top-image'>

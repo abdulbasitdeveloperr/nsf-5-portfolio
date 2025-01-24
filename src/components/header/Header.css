@@ -58,3 +58,16 @@
       color: var(--text-color);
 
 }
+
+.li-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.dark-theme-button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
