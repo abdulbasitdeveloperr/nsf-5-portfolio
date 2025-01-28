@@ -6,6 +6,8 @@
     width: 100%;
     gap: 3rem;
     height: calc(100vh - 6.8rem);
+    background-color: var(--background-color); /* Dynamically adjusts */
+    color: var(--text-color); /* Dynamically adjusts */
 }
 
 .hero-section-top {
@@ -16,51 +18,45 @@
     gap: 0.4rem;
 }
 
-
 .hero-section-top-image {
     height: 180px;
     width: 180px;
     border-radius: 8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile-image {
     height: 100%;
     width: 100%;
     border-radius: 8rem;
+    border: 2px solid var(--border-color); /* Dynamically adjusts */
 }
-
 
 .hero-section-top-text {
     font-size: 2rem;
-    font-weight: 300;}
-
-    .hero-section-top-text,
-    .hero-section-middle-heading,
-    .hero-section-middle-desc {
-        color: var(--text-color);
-    }
+    font-weight: 300;
+    color: var(--text-color); /* Dynamically adjusts */
+}
 
 .hero-section-middle {
     width: 50%;
     margin: 0 auto;
-
 }
-
 
 .hero-section-middle-heading {
     font-size: 3rem;
     text-align: center;
-    /* width: 80%; */
     line-height: 3rem;
     font-weight: 600;
     margin-bottom: 20px;
+    color: var(--text-color); /* Dynamically adjusts */
 }
 
 .hero-section-middle-desc {
     text-align: center;
     font-size: 1.2rem;
+    color: var(--text-color); /* Dynamically adjusts */
 }
-
 
 .hero-section-bottom {
     display: flex;
@@ -69,49 +65,41 @@
     gap: 2rem;
 }
 
-
 .hero-section-bottom-buttons {
     background: transparent;
     padding: 1rem 2rem;
-    border: 1px solid black;
+    border: 1px solid var(--border-color); /* Dynamically adjusts */
     border-radius: 3rem;
     font-size: 1rem;
     cursor: pointer;
+    color: var(--text-color); /* Dynamically adjusts */
 }
 
-
 .hero-section-bottom-buttons:hover {
-    background-color: rgb(12, 12, 12);
-    color: whitesmoke;
+    background-color: var(--hover-background); /* Dynamically adjusts */
+    color: var(--hover-text-color); /* Dynamically adjusts */
     transition: 0.5s all ease;
 }
 
 .waving-hand {
     display: inline-block;
     animation: smoothWave 1.5s ease-in-out infinite;
-    /* Added ease-in-out for smoothness */
     transform-origin: 70% 70%;
-    /* Adjust the transform origin for a natural wave */
 }
-
 
 @keyframes smoothWave {
     0% {
         transform: rotate(0deg);
     }
-
     25% {
         transform: rotate(15deg);
     }
-
     50% {
         transform: rotate(0deg);
     }
-
     75% {
         transform: rotate(-15deg);
     }
-
     100% {
         transform: rotate(0deg);
     }

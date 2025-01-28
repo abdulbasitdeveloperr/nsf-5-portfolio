@@ -17,6 +17,26 @@ html {
     --background-color: white;
     --name-dot: orangered;
     --border-bottom: grey;
+    --text-color: #333;
+    --background-color: white;
+    --border-color: black;
+    --hover-background: #333;
+    --hover-text-color: rgb(19, 3, 3);
+    --text-color: #333;
+    --border-color: black;
+    --hover-text-color: whitesmoke;
+    --background-color: white;
+    --name-dot: orangered;
+    --border-bottom: grey;
+    --hover-background: #333;
+    --hover-text-color: rgb(19, 3, 3);
+    --text-color: #333;
+    --border-color: black;
+    --hover-text-color: whitesmoke;
+    --background-color: white;
+    --name-dot: orangered;
+    --border-bottom: grey;
+    --hover-background: #333;
 }
 [data-theme="dark"] {
     /* Dark Theme Variables */
@@ -27,4 +47,24 @@ html {
     /* Typical dark background */
     --name-dot: orange;
     --border-bottom: darkgray;
+    --text-color: #fff;
+    --background-color: #121212;
+    --border-color: #555;
+    --hover-background: #555;
+    --hover-text-color: #121212;
+    --text-color: whitesmoke;
+    --border-color: lightgray;
+    --hover-text-color: black;
+    --background-color: #121212;
+    --name-dot: orange;
+    --border-bottom: darkgray;
+    --hover-background: #555;
+    --hover-text-color: #121212;
+    --text-color: whitesmoke;
+    --border-color: lightgray;
+    --hover-text-color: black;
+    --background-color: #121212;
+    --name-dot: orange;
+    --border-bottom: darkgray;
+    --hover-background: #555;
 }

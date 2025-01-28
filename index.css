@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  html {
+    scroll-behavior: smooth;
+}
   :root {
     --text-color: "#333";
     --border-color: black;
@@ -15,11 +17,11 @@
 }
 [data-theme="dark"] {
     /* Dark Theme Variables */
-    --text-color: whitesmoke;
+    --text-color: rgb(247, 244, 244);
     --border-color: lightgray;
     --hover-text-color: black;
     --background-color: #121212;
     /* Typical dark background */
-    --name-dot: rgb(10, 7, 0);
+    --name-dot: rgb(255, 184, 17);
     --border-bottom: rgb(197, 180, 24);
 }

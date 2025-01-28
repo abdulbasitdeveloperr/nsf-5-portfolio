@@ -29,7 +29,7 @@
     width: 0.6rem;
     height: 0.6rem;
     border-radius: 100%;
-    background-color: orangered;
+    background-color: var(--name-dot);
     right: -0.8rem;
     bottom: 0.4rem;
 }
@@ -58,12 +58,16 @@
       color: var(--text-color);
 
 }
+.contact-button:hover {
+    color: var(--hover-text-color); /* Dynamic hover text color */
+}
 
 .li-button {
     border: none;
     outline: none;
     background: transparent;
     cursor: pointer;
+    color: var(--text-color);
 }
 .dark-theme-button{
     border: none;
